@@ -1,0 +1,77 @@
+h1 {
+    color:rgb(10, 75, 35);
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 80px;
+}
+h2 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 22px; 
+    margin-top: -5px;
+    font-weight: normal;
+}
+h3 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+}
+h4 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h6 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.parrafo01 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+
+}
+#parrafo2 {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo03 {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagen {
+    width: 200px;   /* Ancho */
+    height: 150px; /*alto */
+    display: block;
+    margin: 0 auto;
+
+}
+.contenedor-imagenes {
+    display: flex;           /* Coloca una al lado de la otra */
+    justify-content: center; /* Centra el bloque */
+    gap: 20px;               /* Espacio entre imágenes */
+    margin-top: 20px;
+}
+
+.contenedor-imagenes img {
+    width: 300px;
+    height: auto;
+}
