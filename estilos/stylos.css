@@ -5,7 +5,11 @@ h1 {
     font-size: 80px;
 }
 h2 {
+<<<<<<< HEAD
     color:rgb(0, 0, 0);
+=======
+    color:rgb(0, 12, 24);
+>>>>>>> ff94f2f (Actualizacion del proyecto: nuevas paginas y cambios)
     text-align: center;
     font-size: 22px; 
     margin-top: -5px;
@@ -26,13 +30,19 @@ h5 {
     color:rgb(0, 0, 0);
     text-align: center;
     font-size: 15px;
+<<<<<<< HEAD
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+=======
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    
+>>>>>>> ff94f2f (Actualizacion del proyecto: nuevas paginas y cambios)
 }
 h6 {
     color:rgb(0, 0, 0);
     text-align: center;
     font-size: 15px;
+<<<<<<< HEAD
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -40,19 +50,35 @@ h6 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: 20px;
+=======
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+ 
+}
+.parrafo01 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+>>>>>>> ff94f2f (Actualizacion del proyecto: nuevas paginas y cambios)
     color: black;
 
 }
 #parrafo2 {
     color: black;
     text-align: left;
+<<<<<<< HEAD
     font-weight: bold;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+=======
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+>>>>>>> ff94f2f (Actualizacion del proyecto: nuevas paginas y cambios)
 }
 .parrafo03 {
     color: black;
     text-align: left;
+<<<<<<< HEAD
     font-weight: bold;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -60,6 +86,14 @@ h6 {
 .imagen {
     width: 200px;   /* Ancho */
     height: 150px; /*alto */
+=======
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.imagen {
+    width: 150px;   /* Ancho */
+    height: 100px; /*alto */
+>>>>>>> ff94f2f (Actualizacion del proyecto: nuevas paginas y cambios)
     display: block;
     margin: 0 auto;
 
@@ -67,6 +101,7 @@ h6 {
 .contenedor-imagenes {
     display: flex;           /* Coloca una al lado de la otra */
     justify-content: center; /* Centra el bloque */
+<<<<<<< HEAD
     gap: 20px;               /* Espacio entre imágenes */
     margin-top: 20px;
 }
@@ -75,3 +110,60 @@ h6 {
     width: 300px;
     height: auto;
 }
+=======
+    gap: 30px;               /* Espacio entre imágenes */
+    margin-top: 20px;
+    gap: 100px;
+}
+
+.contenedor-imagenes img {
+    width: 500px;
+    height: auto;
+    
+}
+.listas {
+    display: flex;
+    gap: 200px; /* espacio entre listas */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    justify-content: left;
+    margin-top: 2px;
+}
+
+/* vamos a crear el diseño paara la pagina viajes */
+.Viajes h1 {
+    color:rgb(5, 6, 37);
+    text-align: left;
+    margin-bottom: 5;
+    font-size: 30px;
+}
+.Viajes h2 {
+    color:rgb(0, 12, 24);
+    text-align: left;
+    font-size: 20px; 
+    margin-top: -2px;
+    font-weight: lighter;
+} 
+.Viajes h3 {
+    color:rgb(0, 12, 24);
+    text-align: left;
+    font-size: 20px; 
+    margin-top: -2px;
+    font-weight: lighter;
+} 
+.Viajes p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    text-align: left;
+    font-size: 15px;
+    color: black;
+
+}
+.Viajes img {
+    width: 700px;   /* Ancho */
+    height: 400px; /*alto */
+    display: block;
+    margin: 0 auto;
+}
+
+
+>>>>>>> ff94f2f (Actualizacion del proyecto: nuevas paginas y cambios)
